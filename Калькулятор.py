@@ -7,8 +7,7 @@ from PyQt5.QtCore import Qt
 class BeigeCalculator(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Калькулятор для неких эстетов")
-        # Увеличиваем размер в 1.3 раза (оригинал 300x400)
+        self.setWindowTitle("Калькулятор эстет")
         self.setFixedSize(int(400), int(600))
 
         # Центральный виджет и основной layout
